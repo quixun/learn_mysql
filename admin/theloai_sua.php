@@ -113,7 +113,7 @@ $sl="update theloai set TenTL='$theloai',ThuTu='$thutu',AnHien='$an',icon='$icon
 if(mysqli_query($connect, $sl))
 {
 	echo "<script language='javascript'>alert('sua thanh cong');";
-		echo "location.href='theloai.php';</script>";
+		echo "location.href='theloai_.php';</script>";
 }
 	}
 ?>
